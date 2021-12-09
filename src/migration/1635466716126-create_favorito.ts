@@ -30,24 +30,6 @@ export class createFavorito1635466716126 implements MigrationInterface {
           type: 'datetime'
         },
       ],
-      foreignKeys: [
-        {
-          name: 'FavoritoVeiculo',
-          columnNames: ['id_veiculo'],
-          referencedTableName: 'veiculos',
-          referencedColumnNames: ['id'],
-          onUpdate: 'CASCADE',
-          onDelete: 'CASCADE'
-        },
-        {
-          name: 'FavoritoUsuario',
-          columnNames: ['id_usuario'],
-          referencedTableName: 'usuarios',
-          referencedColumnNames: ['id'],
-          onUpdate: 'CASCADE',
-          onDelete: 'CASCADE'
-        }
-      ]
     }));
   }
 

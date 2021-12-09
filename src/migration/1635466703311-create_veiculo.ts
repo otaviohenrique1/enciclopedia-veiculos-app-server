@@ -114,16 +114,6 @@ export class createVeiculo1635466703311 implements MigrationInterface {
           type: 'datetime'
         },
       ],
-      foreignKeys: [
-        {
-          name: 'IdUsuario',
-          columnNames: ['id_usuario'],
-          referencedTableName: 'usuarios',
-          referencedColumnNames: ['id'],
-          onUpdate: 'CASCADE',
-          onDelete: 'CASCADE'
-        }
-      ]
     }));
   }
 

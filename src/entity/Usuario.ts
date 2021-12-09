@@ -18,7 +18,7 @@ export default class Usuario {
   senha: string;
 
   @Column()
-  data_nascimento: string;
+  data_nascimento: Date;
 
   @Column()
   data_cadastro: Date;

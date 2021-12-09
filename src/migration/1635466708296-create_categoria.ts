@@ -26,16 +26,6 @@ export class createCategoria1635466708296 implements MigrationInterface {
           type: 'datetime'
         },
       ],
-      foreignKeys: [
-        {
-          name: 'FavoritoUsuario',
-          columnNames: ['id_usuario'],
-          referencedTableName: 'usuarios',
-          referencedColumnNames: ['id'],
-          onUpdate: 'CASCADE',
-          onDelete: 'CASCADE'
-        }
-      ]
     }));
   }
 

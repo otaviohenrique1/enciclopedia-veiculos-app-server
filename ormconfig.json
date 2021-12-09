@@ -1,4 +1,10 @@
 {
+   "type": "mysql",
+   "host": "localhost",
+   "port": 3306,
+   "username": "root",
+   "password": "sofia1234",
+   "database": "enciclopedia_veiculos_app_server_bd",
    "synchronize": true,
    "logging": false,
    "entities": [
